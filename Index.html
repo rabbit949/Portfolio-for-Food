@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Food.</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="/" class="logo">Food<span>.</span></a>
+        <div class="menuToggle" onclick="handleToggle()">
+
+            <!-- <i onclick="handleToggle()" class="fa-solid fa-bars"></i> -->
+
+        </div>
+        <ul class="nav">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#chefs">Chefs</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </header>
+    <!-- Banner -->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>
+                <span>Food</span> for us comes from our relatives, whether they have wings or fins or roots. That is how we consider <span>food</span>. It has a history. It has a story. It has relationships.
+            </p>
+            <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+    <!-- About  -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>
+                    MENU introduces a wide range of cuisine from the house of Seasons ranging from Prime Cuts (Fresh & Frozen), Ready to Cook and Ready to Eat products. Each product is carefully prepared by our finest chefs using quality ingredients and finally frozen to retain the mouth-watering taste for you and your family – anytime, anywhere. Our modern state of the art processing plant with strict hygiene and quality assurance guarantees that our products have superior taste, tantalizing appearance and it retains the natural flavour and nutritional value.
+
+                    Our versatile clear packaging ensures product safety and is easily reusable. We’re passionate about food and therefore at MENU, we believe you deserve fresh, whole some and great tasting products.
+                    
+                    So take the stress out of cooking and choose what’s on the MENU!
+                </p>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="./assets/img1.jpg" alt="about">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu -->
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>
+                Take the stress out of cooking and choose what’s our MENU!
+            </p>
+        </div>
+        <div class="container" id="menu-card">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/menu4.jpg" alt="menu">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                    <h4>$<span>4.99</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="title"><a href="#menu" class="btn">View All</a></div>
+    </section>
+
+    <!-- Recipe-->
+    <section class="recipes" id="recipes">
+        <div class="title">
+            <h2 class="titleText">Top <span>R</span>ecipes</h2>
+            <p>
+                Take the stress out of cooking and see what’s in our RECIPES!
+            </p>
+        </div>
+        <div class="recipesContainer" >
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/menu4.jpg" alt="menu">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                    <button class="btn">View</button>
+                </div>
+            </div>
+        </div>
+        <div class="title"><a href="#recipes" class="btn">View All</a></div>
+    </section>
+
+    <!-- Chefs -->
+    <section class="chefs" id="chefs">
+        <div class="title">
+            <h2 class="titleText">Our Kitchen <span>E</span>xperts</h2>
+            <p>
+                They say the way to our hearts is through our stomachs, so the kitchen must be the heart of the home.
+            </p>
+        </div>
+        <div class="content" id="experts">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/expert1.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/expert2.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/expert3.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/expert4.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title"><a href="#chefs" class="btn">View All</a></div>
+    </section>
+    <!-- Testimonals -->
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">Our <span>T</span>estimonials</h2>
+            <p>
+               What our clients say about us.
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/testi1.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati possimus laudantium cumque sint quidem, odit fugit quia consequuntur voluptatum quaerat quis, expedita enim.</p>
+                    <h4>Someone Famous</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/testi2.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati possimus laudantium cumque sint quidem, odit fugit quia consequuntur voluptatum quaerat quis, expedita enim.</p>
+                    <h4>Someone Famous</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./assets/testi3.jpg" alt="chefs">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati possimus laudantium cumque sint quidem, odit fugit quia consequuntur voluptatum quaerat quis, expedita enim.</p>
+                    <h4>Someone Famous</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>
+               For any quries send us email.
+            </p>
+        </div>
+        <div class="contactForm">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+               <textarea name="inoutarea" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" id="send" value="Send">
+            </div>
+            <footer>
+                <p><span>White Rabbit®</span>| Made with ❤</p>
+            </footer>
+        </div>
+        
+    </section>
+
+   
+
+    <script src="./app.js"></script>
+</body>
+</html>
